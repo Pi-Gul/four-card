@@ -6,6 +6,7 @@ body {
   width: 1440px;
   background-color: hsl(0, 0%, 98%);
   font-size: 15px;
+  font-family: "Poppins", sans-serif;
 }
 
 main {
@@ -15,7 +16,7 @@ main {
 .top-header h1 {
   color: grey;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2.2em;
   margin-bottom: 0px;
   padding: 0px;
@@ -25,7 +26,7 @@ main {
 .top-header h2 {
   color: black;
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 2em;
   padding: 0%;
   margin: 0% 0% 2% 0%;
@@ -35,6 +36,7 @@ main {
   color: grey;
   text-align: center;
   font-size: 1.8;
+  font-weight: 400;
   margin: 0%;
   padding: 0.2%;
 }
@@ -53,10 +55,15 @@ main {
   padding-right: 9%; 
 }
 
+.card h3 {
+  padding: 0%;
+  margin: 0%;
+}
+
 .icon {
   position: relative;
   left: 75%;
-  padding: 0%;
+  padding: 10% 0% 0% 0%;
 }
 
 .attribution { 
