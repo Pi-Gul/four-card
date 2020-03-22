@@ -15,7 +15,11 @@ main {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 40px;
+  margin-top: 70px;
+}
+
+.top-header {
+
 }
 
 .top-header h1 {
@@ -41,7 +45,7 @@ main {
   font-size: 1.2em;
   font-weight: 400;
   margin: 0px;
-  padding: 0.2%;
+  padding: 5px;
 }
 
 .mid-cards {
@@ -105,26 +109,13 @@ main {
   }
   main {
     flex-direction: row;
-    height: 700px;
     align-items: center;
     justify-content: space-between;
   }
-  .team {
-    position: absolute;
-    top: 90px;
-    left: 535px;
-    margin: 0px;
-  }
-  .karma {
-    position: absolute;
-    bottom: 90px;
-    left: 535px;
-    margin: 0px;
-  }
   .super {
-    left: 125px;
+    left: 130px;
   }
   .calc {
-    right: 125px;
+    right: 130px;
   }
 }
