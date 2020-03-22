@@ -12,7 +12,10 @@ body {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   position: relative;
+  margin-top: 40px;
 }
 
 .top-header h1 {
@@ -21,8 +24,7 @@ main {
   font-weight: 400;
   font-size: 1.9em;
   margin-bottom: 0px;
-  padding: 0px;
-  margin: 3% 0% 0% 0%; 
+  margin: 10px 0px 0px 0px; 
 }
 
 .top-header h2 {
@@ -30,16 +32,15 @@ main {
   text-align: center;
   font-weight: 600;
   font-size: 1.9em;
-  padding: 0%;
-  margin: 0% 0% 2% 0%;
+  margin: 0px 0px 5px 0px;
 }
 
-.top-header p {
+.header-text {
   color: grey;
   text-align: center;
   font-size: 1.2em;
   font-weight: 400;
-  margin: 0%;
+  margin: 0px;
   padding: 0.2%;
 }
 
@@ -47,9 +48,9 @@ main {
   position: relative;
   width: 370px;
   background-color: rgb(255,255,255);
-  padding: 20px;
+  padding: 30px 20px;
   border-radius: 6px;
-  margin: 20px auto;
+  margin: 15px auto;
   box-shadow: 1px 8px 8px hsl(229, 6%, 85%);
 }
 
@@ -88,3 +89,38 @@ main {
   color: hsl(228, 45%, 44%); 
 }
 
+@media only screen and (min-width: 1000px) {
+  body {
+    width: 1440px;
+    margin: 0px auto;
+  }
+  .header-text {
+    width: 450px;
+    font-size: 0.85em;
+    margin: 0px auto;
+  }
+  main {
+    flex-direction: row;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+  }
+  .team {
+    position: absolute;
+    top: 30px;
+    left: 535px;
+    margin: 0px;
+  }
+  .karma {
+    position: absolute;
+    bottom: 30px;
+    left: 535px;
+    margin: 0px;
+  }
+  .super {
+    left: -50px;
+  }
+  .calc {
+    right: -50px;
+  }
+}
