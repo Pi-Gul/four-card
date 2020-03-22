@@ -44,13 +44,17 @@ main {
   padding: 0.2%;
 }
 
+.mid-cards {
+
+}
+
 .card {
   position: relative;
   width: 370px;
   background-color: rgb(255,255,255);
   padding: 30px 20px;
   border-radius: 6px;
-  margin: 15px auto;
+  margin-bottom: 25px;
   box-shadow: 1px 8px 8px hsl(229, 6%, 85%);
 }
 
@@ -103,24 +107,24 @@ main {
     flex-direction: row;
     height: 700px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
   .team {
     position: absolute;
-    top: 30px;
+    top: 90px;
     left: 535px;
     margin: 0px;
   }
   .karma {
     position: absolute;
-    bottom: 30px;
+    bottom: 90px;
     left: 535px;
     margin: 0px;
   }
   .super {
-    left: -50px;
+    left: 125px;
   }
   .calc {
-    right: -50px;
+    right: 125px;
   }
 }
