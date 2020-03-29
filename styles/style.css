@@ -5,7 +5,6 @@
 }
 
 body {
-  width: 375px;
   background-color: hsl(0, 0%, 98%);
   font-size: 15px;
   font-family: "Poppins", sans-serif;
@@ -16,17 +15,14 @@ main {
   flex-direction: column;
   position: relative;
   margin-top: 70px;
-}
-
-.top-header {
-
+  padding: 10px;
 }
 
 .top-header h1 {
   color: grey;
   text-align: center;
   font-weight: 400;
-  font-size: 1.9em;
+  font-size: 6.5vw;
   margin-bottom: 0px;
   margin: 10px 0px 0px 0px; 
 }
@@ -35,26 +31,22 @@ main {
   color: black;
   text-align: center;
   font-weight: 600;
-  font-size: 1.9em;
+  font-size: 6.5vw;
   margin: 0px 0px 5px 0px;
 }
 
 .header-text {
   color: grey;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 4.5vw;
   font-weight: 400;
   margin: 0px;
   padding: 5px;
 }
 
-.mid-cards {
-
-}
-
 .card {
   position: relative;
-  width: 370px;
+  width: 100%;
   background-color: rgb(255,255,255);
   padding: 30px 20px;
   border-radius: 6px;
@@ -62,8 +54,13 @@ main {
   box-shadow: 1px 8px 8px hsl(229, 6%, 85%);
 }
 
+.card h3 {
+  font-size: 5vw;
+}
+
 .card p {
-  padding-right: 20px; 
+  padding-right: 20px;
+  font-size: 4vw;
 }
 
 .super {
@@ -102,15 +99,31 @@ main {
     width: 1440px;
     margin: 0px auto;
   }
+  .top-header h1 {
+    font-size: 2.4em
+  }
+    .top-header h2 {
+    font-size: 2.4em
+  }
   .header-text {
-    width: 450px;
-    font-size: 0.85em;
+    width: 600px;
+    font-size: 1.1em;
     margin: 0px auto;
   }
   main {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+  .card {
+    width: 370px;
+  }
+  .card h3 {
+    font-size: 1.7em;
+  }
+  .card p {
+    padding-right: 20px;
+    font-size: 1em;
   }
   .super {
     left: 130px;
